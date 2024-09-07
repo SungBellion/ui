@@ -11,6 +11,7 @@ The repository is organized into main directories:
 
 Every example follows a simple folder structure:
 
+```
 /css
     └── main.css
 /js
@@ -18,7 +19,7 @@ Every example follows a simple folder structure:
 /img
     └── (optional: stores images used in the example)
 index.html
-
+```
 
 ## 📑 Index of Examples
 
