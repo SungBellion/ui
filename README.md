@@ -30,8 +30,8 @@ index.html
 
 ### GSAP
 
-1. **01-mouse-animation**: Enhanced mouse animation using GSAP for smoother transitions.
-2. **02-parallax-effect**: Advanced parallax effect with GSAP, allowing for more dynamic interactions.
+1. **01-cursor-sticky**: Enhanced mouse animation using GSAP for smoother transitions.
+2. **02-image-reveal**: Advanced parallax effect with GSAP, allowing for more dynamic interactions.
 
 ---
 
