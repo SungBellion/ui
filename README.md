@@ -25,7 +25,7 @@ index.html
 
 ### Vanilla JS
 
-1. **01-mouse-animation**: Mouse animation tracking user movements across the page.
+1. **01-cursor-sticky**: Mouse animation tracking user movements across the page.
 2. **02-parallax-effect**: Simple parallax effect based on scroll position.
 
 ### GSAP
