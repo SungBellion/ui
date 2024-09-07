@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.producto-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto-info>div {
+    width: 50%;
+}
+
+.image-middle-product img {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.data-middle-product {
+    padding: 2em;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.data-middle-product h2 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.wrapper-image-calendar {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-middle-product img {
+    max-width: 30vw;
+    max-height: 50vh;
+}
+
+#product-display span.stickyCursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    border: 3px solid #000;
+    object-fit: cover;
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#product-display span.stickyCursor>span.cruz-vertical {
+    position: absolute;
+    height: 3em;
+    width: 3px;
+    background: black;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    display: inline-block;
+}
+
+#product-display span.stickyCursor>span.cruz-horizontal {
+    position: absolute;
+    height: 3px;
+    width: 3em;
+    background: black;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    display: inline-block;
+}

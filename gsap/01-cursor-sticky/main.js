@@ -28,3 +28,5 @@ function initCustomCursor() {
         el.addEventListener('mouseleave', () => fade.reverse());
     });
 }
+
+initCustomCursor();
