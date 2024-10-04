@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    font-family: sans-serif;
+}
+
+.odometer {
+    display: flex;
+    font-size: 60px;
+    color: white;
+}
+
+.digit {
+    overflow: hidden;
+    height: 100px;
+    width: 60px;
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.number div {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
