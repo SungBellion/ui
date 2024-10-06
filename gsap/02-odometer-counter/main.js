@@ -1,8 +1,8 @@
 let currentValue = "20000";
 
 function animateOdometer(target, start, end, duration) {
-  const startY = -(100 * start);
-  const endY = -(100 * end);
+  const startY = -(1 * start) + "em";
+  const endY = -(1 * end) + "em";
   gsap.fromTo(target, { y: startY }, { y: endY, duration: duration, ease: "power2.out" });
 }
 
